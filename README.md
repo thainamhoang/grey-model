@@ -1,26 +1,10 @@
-# Grey Model
+# A Rolling Optimized Nonlinear Grey Bernoulli Model RONGBM(1, 1) and application in predicting total 2019-nCoV infected cases
 
-## Deadline:
+This is a research paper co-author with [Hoang Anh Ngo](mailto:hoang-anh.ngo@polytechnique.edu). 
 
-### 7:00 PM GMT+1 (12:00 PM CST) Feb 5
-- [x] Find data 
+In this paper, we will propose an optimized method using rolling mechanism for traditional grey model GM(1, 1) uses in predicting values with adequate data. The algorithm is benchmarked by comparing results with Artificial Neural Network and Long Short-term Memory in order to prove the strength of this algorithm: analyzing small amount of data. 
 
-- [ ] GM(1,1)
+The code uses for this project is written in R and Python, R for all grey methods and Python for deep learning algorithms and graphs. 
 
-- [ ] Difference README file
-
-- [x] Format paper layout
-
-- [x] RPE and ARPE Calculation
-
-### 7:00 PM GMT+1 (12:00 PM CST) Feb 8
-- [x] Run AR
-
-- [x] Polynomial Regression
-
-- [x] Long Short-term Memory (LSTM) 
-
-- [x] Artificial Neural Network (ANN)
-
-## File
-https://www.overleaf.com/project/5e3710f8d4449b00017084a4
+#### Acknowledgement 
+We thank Professor Mehmet Dik in giving initial ideas and supporting us during the process of making this.

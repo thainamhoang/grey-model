@@ -1,7 +1,10 @@
 import datetime as dt
 from matplotlib import pyplot as plt
 from matplotlib import dates as mdates
+from matplotlib import style
 import numpy as np
+
+style.use('seaborn')
 
 labels = ['2020/02/09', '2020/02/10', '2020/02/11', '2020/02/12',
         '2020/02/13', '2020/02/14', '2020/02/15', '2020/02/16',
@@ -21,6 +24,7 @@ ax.set_ylabel('Daily infected cases', fontsize=18)
 ax.set_xlabel('Date', fontsize=18)
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
+ax.tick_params(axis='both', which='major', labelsize=12)
 ax.legend()
 
 def autolabel(rects):
@@ -38,5 +42,4 @@ autolabel(rects1)
 autolabel(rects2)
 
 fig.tight_layout()
-
 plt.show()
